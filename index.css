@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULil';
+    src: url('/Users/rado/Library/Fonts/CursedTimerUlil-Aznm.ttf')  format('truetype'); 
+}
+
+.container {
+    display: flex;
+    border-radius: 20px;
+    background-color: #132a12;
+    color: white;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.team-container {
+    margin: 0 auto;
+    width: 150px;
+    height: inherit;
+    padding-top: 85px;
+}
+
+.team-name {
+    font-weight: bold;
+    font-family: "Verdana";
+    font-size: 2rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
+    border-bottom: 3px solid #f0f0f0;
+}
+
+.scoreboard {
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+.score-el {
+    font-family: "Cursed Timer ULiL";
+    font-size: 5rem;
+    background-color: black;
+    margin: 0;
+    color: red;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.pointsAdded {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.addPoint {
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+    font-family: 'Cursed Timer ULiL';
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    background-color: transparent;
+    color: red;
+}
